@@ -3,8 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26510.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FE5DF5EB-BEDD-4BE0-B880-FC62F98E2B8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ED2E3060-6797-44D3-B41E-53AE0EDEC2A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiDrive.Core", "src\PiDrive.Core\PiDrive.Core.csproj", "{8326BAF3-0617-4531-B5CC-27A2CEDDA70D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiDrive.Test.Core", "test\PiDrive.Test.Core\PiDrive.Test.Core.csproj", "{16D4F5B6-30C0-4F65-827F-569B184D98A4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8326BAF3-0617-4531-B5CC-27A2CEDDA70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8326BAF3-0617-4531-B5CC-27A2CEDDA70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8326BAF3-0617-4531-B5CC-27A2CEDDA70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8326BAF3-0617-4531-B5CC-27A2CEDDA70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D4F5B6-30C0-4F65-827F-569B184D98A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D4F5B6-30C0-4F65-827F-569B184D98A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D4F5B6-30C0-4F65-827F-569B184D98A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D4F5B6-30C0-4F65-827F-569B184D98A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8326BAF3-0617-4531-B5CC-27A2CEDDA70D} = {FE5DF5EB-BEDD-4BE0-B880-FC62F98E2B8D}
+		{16D4F5B6-30C0-4F65-827F-569B184D98A4} = {ED2E3060-6797-44D3-B41E-53AE0EDEC2A7}
 	EndGlobalSection
 EndGlobal
